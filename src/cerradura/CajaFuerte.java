@@ -7,4 +7,9 @@ public class CajaFuerte {
 		return this.abierto;
 	}
 
+	public void cerrar() {
+		this.abierto = false;
+		
+	}
+
 }

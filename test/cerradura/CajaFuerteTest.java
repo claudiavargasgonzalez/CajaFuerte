@@ -12,5 +12,15 @@ public class CajaFuerteTest {
 		
 		assertTrue(miCaja.estaAbierta());
 	}
+	
+	@Test
+	public void alCerrarDeberiaEstarCerradaTest() {
+		CajaFuerte miCaja = new CajaFuerte();
+		miCaja.cerrar();
+		
+		assertFalse(miCaja.estaAbierta());
+		
+				
+	}
 
 }
